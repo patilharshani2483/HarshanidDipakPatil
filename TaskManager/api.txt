@@ -1,0 +1,5 @@
+Search:http://localhost/TaskManager/index.php/search
+Add:http://localhost/TaskManager/index.php/add
+View:http://localhost/TaskManager/index.php/view
+Update:http://localhost/TaskManager/index.php/update
+Delete:http://localhost/TaskManager/index.php/delete
