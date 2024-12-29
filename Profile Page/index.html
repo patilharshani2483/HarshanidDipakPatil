@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+<div id="header">
+    <div id="container">
+        <nav>
+            <!-- <img src="Images/logo.png" class="logo" alt="Logo"> -->
+            <h1 class="name">Harshanii</h1>
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front End Developer</p>
+            <h1>Hi, I am <span>Harshani</span><br>Patil From Surat</h1>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/about.jpeg" alt="Background">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a current student pursuing a Bechelor of Technology in Computer Engineering at Bhagwan Mahavir University,i bring a Strong foundation Html,Css and Javascript complemented by proficient communication and exemplary time management skills .Eager to leverage my technical expertise and academic knowledge to contribute effectively to your esteemed company,I am committed to delivering my best work and continuously expanding my skills in a dynamic work environment </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Html Css Javascript Bootstrap</span><br>Front end Developer</li>
+                        <li><span>Git/Github,MYSQL</span><br>Technical Skills</li>
+                        <li><span>Php</span><br>Backend Developer</li>
+                        <li><span>Microsoft Word,Excel,Powerpoint</span><br>Basic Skill</li>
+                        <li><span>Quick Learner , Time Management ,communication</span><br>Soft Skills</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span></li>
+                        <li><span>2024</span><br>One month intership of Surat it Hub</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSC from Sunrise Vidhyalaya Surat</li>
+                        <li><span>2019</span><br>Diploma from Goverment Girls Polytenic For Girls Surat</li>
+                        <li><span>2022</span><br>I undertaking My B.tech From Bhagwan Mahavir University From Surat</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services -->
+<section id="services" class="container">
+    <h2 class="sub-title"> My Expertise </h2>
+    <div class="services-list">
+        <div>
+            <i class="fas fa-code"></i>
+            <h2>Front end Developer</h2>
+            <p>Innovative front end developer with expertise in crafting visually stunning, responsive and user-centric web interfaces that deliver exceptional digital experiences
+            <a href="#learn-more">Learn More</a>
+        </div>
+        <div>
+            <i class="fas fa-paint-brush"></i>
+            <h2>Backend Developer</h2>
+            <p>Backend Developer skilled in building robust server side applcations, managing databases, and creating APIs to ensure seamless functionality and performance</p>
+            <a href="#learn-more">Learn More</a>
+        </div>
+        <div>
+            <i class="fas fa-search"></i>
+            <h2>FullStack Developer</h2>
+            <p>Proficient full Stack Developer Skilled in designing and implementing end-to-end we-solutions,combining seamless front end interfaces with robust back end functionality
+            <a href="#learn-more">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png" alt="Work 1">
+                <div class="layer">
+                    <h3>Online Logistic Chatboat System</h3>
+                    <p>This project is designed to streamline college inquiries.Built using PHP and MYSQL for backend funtinality and HTML/CSS fo the front end interface,it offrers a user -friendly platform for students to inquire about college logistics.The  System allows students to ask questions related to admissions , courses ,schedules and other receive instant reponses from the chatboat </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png" alt="Work 2">
+                <div class="layer">
+                    <h3>Zoo Portal</h3>
+                    <p>Online Zoo Management System Using HTML, CSS, Reactjs, PHP and MYSQL is a web-based application designed to manage zoo operations efficiently.The System enables users  to track animal data, manage zoo exhibits,handle visiter interactions, and oversee inventory, all from an online interface</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png" alt="Work 3">
+                <div class="layer">
+                    <h3>Cloth Shopping Website</h3>
+                    <p>Created a dynamic clothing shopping website using HTML,CSS  and JavaScript featuring multiple pages like Home, Blog , Shop, About and Contact.The Site showcases the latest collections,fashion insights and allows seamless browsing and purshasing Designed for intuitive navigation and an enhanced user experience </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-phone"></i> 6353477985</p>
+                <p><i class="fas fa-paper-plane"></i>patilharshani2483@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com">
+<i class="fab fa-facebook"></i> </a>
+
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Harshani-Patil-FlowCV-Resume-20241221 (1).pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright Harshanii. Made with <i class="fas fa-heart"></i> by Front End Developer</p>
+</div>
+
+<script>
+    function opentab(event, tabname) {
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    function openmenu() {
+        document.getElementById("sidemenu").style.right = "0";
+    }
+
+    function closemenu() {
+        document.getElementById("sidemenu").style.right = "-200px";
+    }
+
+    const form = document.forms['submit-to-google-sheet'];
+    const scriptURL = 'https://script.google.com/macros/s/your-script-id/exec';
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+</body>
+</html>
